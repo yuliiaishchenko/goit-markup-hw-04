@@ -464,7 +464,10 @@ footer{
     color: var(--fon-text-color);
     padding-top: 60px;
     padding-bottom: 60px;}
+.footer {
+    display: flex;
 
+}
 .logo-footer {
     display: inline-block;
     color: var(--fon-text-color);
@@ -495,7 +498,11 @@ footer{
 .footer-ul {
     padding-inline-start: 0;}
 
+.footer-social {
+    display: flex;
+    
 
+}
 
 .social-list {
 display: flex;
