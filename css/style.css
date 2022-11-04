@@ -500,12 +500,17 @@ footer{
 .social-list {
 display: flex;
 padding-inline-start: 0;
-
 width: 44px;
 height: 44px;}
+.footer-social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
 
 .footer-social-link {
- display: block;
+ display: flex;
 width: 116px;
 height: 16px;
 
@@ -532,12 +537,12 @@ color: #FFFFFF;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    
     width: 44px;
-    height: 44px;
+    height: 44px;}
    
 .footer-links:hover {
     background-color: var(--accent-text-color);}
+
 .footer-links:hover svg {
     color: var(--fon-text-color);
 }
