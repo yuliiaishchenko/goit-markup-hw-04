@@ -95,40 +95,40 @@ h1,h2,h3,p,ul {
         line-height: 1.14;
         letter-spacing: 0.02em;}
     
-    .auth-nav .link:hover,
-    .auth-nav .link:focus {
+.auth-nav .link:hover,
+.auth-nav .link:focus {
         color: var(--accent-text-color);}
 
-        .auth-nav {
-            display: flex;
-            padding: 0%;
-            margin-left: auto;
-            }
+.auth-nav {
+     display: flex;
+    padding: 0%;
+    margin-left: auto;}
 
-  .site-auth-nav {
-    display: flex;
-  }
+.site-auth-nav {
+    display: flex;  }
+
 .flex-icon {
-    margin-right: 10px;
-    
+    margin-right: 10px; 
     }
 
-    .flex-nav {
+.flex-nav {
     display: flex;
     align-items: center;
     margin-right: 30px;
     padding: 0;}
+
 .auth-flex-svg {
     color: var(--title-text-color);
     fill: var(--title-text-color);    
 }
+
 .auth-flex-svg:hover
 {
     color: var(--accent-text-color);
     fill: var(--accent-text-color);
 }
 
-    .flex-nav:nth-child(2n) {
+.flex-nav:nth-child(2n) {
         margin-right: 0%;} 
         
 
