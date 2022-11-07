@@ -318,12 +318,11 @@ img {
     height: 44px;}
    
 .social-links:hover {
-    color: var(--fon-text-color);
     background-color: var(--accent-text-color);
   }
 
-.social-svg:hover
- {  fill: currentColor;}
+  .social-links:hover .social-svg, 
+  .social-links:focus .social-svg {fill: #fff; } 
 
 .social-svg {
     fill: #AFB1B8;
