@@ -111,7 +111,7 @@ h1,h2,h3,p,ul {
 .auth-nav {
      display: flex;
     padding: 0%;
-    
+    align-items: center;
 }
 .site-auth-nav {
     display: flex;
