@@ -120,12 +120,12 @@ h1,h2,h3,p,ul {
 
 .flex-icon {
     margin-right: 10px; 
-    fill: rgba(117, 117, 117, 1);
+    fill: currentColor;
     }
     
 .flex-icon:hover,
 .flex-icon:focus {
-    fill: var(--accent-text-color);
+    fill: currentColor;
 }
 .flex-nav {
     display: flex;
@@ -240,7 +240,10 @@ border: 0;}
 .icon-box :nth-last-child(4) {
     margin-right: 0;
 }    
-
+.icon-svg {
+    width: 70px;
+    height: 70px;
+}
 .section-title {
     color: var(--primary-text-color);
     font-weight: 700;
@@ -315,13 +318,17 @@ img {
     height: 44px;}
    
 .social-links:hover {
-    background-color: var(--accent-text-color);}
+    color: var(--fon-text-color);
+    background-color: var(--accent-text-color);
+  }
 
-.social-svg:hover {
-    fill: var(--fon-text-color);
+.social-svg:hover
+ {  fill: currentColor;}
 
-} .social-svg {
-    fill: #AFB1B8;;
+.social-svg {
+    fill: #AFB1B8;
+    width: 20px;
+    height: 20px;
   }
 
 .flex-team:nth-child(4n) {
@@ -482,9 +489,9 @@ button {
 .client-link:hover,
 .client-link:focus {
     border: 1px solid var(--accent-text-color);
+    color: var(--accent-text-color);
 }
-.client-svg {
-    fill: var(--fon-text-color)}
+
 
 .client-item {
     width: calc((100% - 150px)/6);
@@ -496,11 +503,13 @@ button {
 }
 
 .client-svg {
-    fill: var(--current-color)
+    width: 106px;
+    height: 60px;
+    fill: currentColor;
 }
 .client-svg:hover,
 .client-svg:focus {
-    fill: var(--accent-text-color)
+    fill: currentColor;
 }
 address {
     font-style: normal;}
@@ -588,6 +597,8 @@ color: #FFFFFF;
     height: 44px;}
   .footer-svg {
     fill: var(--fon-text-color);
+    width: 20px;
+    height: 20px;
   }
 .footer-links:hover {
     background-color: var(--accent-text-color);}
