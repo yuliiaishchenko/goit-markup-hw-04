@@ -117,7 +117,10 @@ h1,h2,h3,p,ul {
     display: flex;
 
 }
-
+.flex-nav .link {
+    display: flex;
+    align-items: center;
+}
 .flex-icon {
     margin-right: 10px; 
     fill: currentColor;
@@ -317,7 +320,8 @@ img {
     width: 44px;
     height: 44px;}
    
-.social-links:hover {
+.social-links:hover,
+.social-links:focus {
     background-color: var(--accent-text-color);
   }
 
@@ -440,7 +444,8 @@ button {
 .portfolio-title:nth-last-child(-n+3) {
         margin-bottom: 0;}  
         
-.portfolio-link:hover {
+.portfolio-link:hover,
+.portfolio-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -599,10 +604,12 @@ color: #FFFFFF;
     width: 20px;
     height: 20px;
   }
-.footer-links:hover {
+.footer-links:hover,
+.footer-links:focus {
     background-color: var(--accent-text-color);}
 
-.footer-links:hover svg{
+.footer-links:hover svg,
+.footer-links:focus svg{
     fill: var(--fon-text-color);
 }
 
